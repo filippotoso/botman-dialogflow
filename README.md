@@ -19,13 +19,11 @@ composer require filippo-toso/botman-dialogflow
 ## Using It
 
 In your code, just replace the following use statement:
-
 ```
 use BotMan\BotMan\Middleware\Dialogflow;
 ```
 
 with the following one:
-
 ```
 use FilippoToso\BotMan\Middleware\Dialogflow;
 ```
