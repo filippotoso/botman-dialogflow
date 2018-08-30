@@ -1,0 +1,21 @@
+{
+    "name": "filippo-toso/botman-dialogflow",
+    "description": "A Dialogflow middleware for Botman that calls the API only if the current user is not in a conversation drastically reducing the number of calls to Dialogflow (and their cost)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "botman/botman": "~2.0",
+        "illuminate/support": "^5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "FilippoToso\\Botman\\Middleware\\": "src"
+        }
+    }
+}
